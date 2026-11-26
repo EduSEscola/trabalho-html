@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu Cubos Mágicos Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/imagens/4295.png">
+</head>
+<body>
+    <header class="header">
+    <a href="inicio.html" class="logo">
+        <img src="./imagens/educubomagicoslogo.png" alt="Edu">
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a href="inicio.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <a href="cart.html" class="compra">
+        <img src="./imagens/4295.png" alt="compra">
+    </a>
+  </header>
+
+  <h1 style="text-align: center";>Cubos Mágicos</h1>
+<div style="flex-direction: column; align-items: center; text-align: center; display:flex; gap: 24px;">
+  <div class="card">
+    <img src="imagens/gan122cupom.png" alt="" class="card-imagem">
+    <div class="card-conteudo">
+    <p class="card-texto"><h1>Cubo Mágico 3x3 GAN</h1>
+      <h1 style="font-size: 60px">R$ 430,00</h1>
+    </p>
+    <button class="card-botao" onclick="addToCart({
+  id: 1,
+  name: 'Cubo Mágico 3x3 GAN',
+  category: '3x3',
+  price: 430.00,
+  image: './imagens/gan122.webp',
+  quantity: 1
+})">
+  Adicionar ao Carrinho
+  </div>
+</div>
+
+<div style="flex-direction: column; align-items: center; text-align: center; display:flex; gap: 24px;">
+  <div class="card">
+    <img src="imagens/89dbad55b2e73438445d477d22d975b7-urktog4g7fcupom.png" alt="" class="card-imagem">
+    <div class="card-conteudo">
+    <p class="card-texto"><h1>Cubo Mágico Megaminx GAN</h1>
+      <h1 style="font-size: 60px">R$ 600,00</h1>
+    </p>
+    <button class="card-botao" onclick="addToCart({
+  id: 2,
+  name: 'Cubo Mágico Megaminx GAN',
+  category: 'Megaminx',
+  price: 600.00,
+  image: './imagens/89dbad55b2e73438445d477d22d975b7-urktog4g7f.webp',
+  quantity: 1
+})">
+  Adicionar ao Carrinho    
+  </div>
+</div>
+
+<div style="flex-direction: column; align-items: center; text-align: center; display:flex; gap: 24px;">
+  <div class="card">
+    <img src="imagens/MoYuWeiLongPyraminxcupom.png" alt="" class="card-imagem">
+    <div class="card-conteudo">
+    <p class="card-texto"><h1>Cubo Mágico Pyraminx Moyu</h1>
+      <h1 style="font-size: 60px">R$ 80,00</h1>
+    </p>
+    <button class="card-botao" onclick="addToCart({
+  id: 3,
+  name: 'Cubo Mágico Pyraminx Moyu',
+  category: 'Pyraminx',
+  price: 80.00,
+  image: './imagens/MoYuWeiLongPyraminx.webp',
+  quantity: 1
+})">
+  Adicionar ao Carrinho
+  </div>
+</div>
+
+<div style="flex-direction: column; align-items: center; text-align: center; display:flex; gap: 24px;">
+  <div class="card">
+    <img src="imagens/skewbcupom.png" alt="" class="card-imagem">
+    <div class="card-conteudo">
+    <p class="card-texto"><h1>Cubo Mágico Skewb GAN</h1>
+      <h1 style="font-size: 60px">R$ 240,00</h1>
+    </p>
+    <button class="card-botao" onclick="addToCart({
+  id: 4,
+  name: 'Cubo Mágico Skewb GAN',
+  category: 'Skewb',
+  price: 240.00,
+  image: './imagens/ganskewb2.png',
+  quantity: 1
+})">
+  Adicionar ao Carrinho
+  </div>
+</div>
+
+<div style="flex-direction: column; align-items: center; text-align: center; display:flex; gap: 24px;">
+  <div class="card">
+    <img src="imagens/squaremgccupom.png" alt="" class="card-imagem">
+    <div class="card-conteudo">
+    <p class="card-texto"><h1>Cubo Mágico Square-1 MGC</h1>
+      <h1 style="font-size: 60px">R$ 200,00</h1>
+    </p>
+    <button class="card-botao" onclick="addToCart({
+  id: 5,
+  name: 'Cubo Mágico Square-1 MGC',
+  category: 'Square-1',
+  price: 200.00,
+  image: './imagens/squaremgc2.png',
+  quantity: 1
+})">
+  Adicionar ao Carrinho
+  </div>
+</div>
+<!--
+<div class="card">
+      <img src="imagens/6ee1250a1e.webp" alt="" class="card-imagem">
+      <div class="card-conteudo">
+      <p class="card-texto"><h1>Cubo Mágico 3x3 GAN</h1>
+        <h1 style="font-size: 60px">R$ 650,00</h1>
+      </p>
+        <button class="card-botao">Adicionar ao Carrinho</button>
+</div>
+<!--
+  <div style="text-align: center"; class="card">
+      <img src="imagens/6ee1250a1e.webp" alt="" class="card-imagem">
+      <div class="card-conteudo">
+      <p class="card-texto"><h1>Cubo Mágico 3x3 GAN</h1>
+        <h1 style="font-size: 60px">R$ 650,00</h1>
+      </p>
+        <button class="card-botao">Adicionar ao Carrinho</button>
+      </div>
+      
+<!-- </div>--> 
+    <!--nome do item-->
+<!--    <div style="text-overflow: ellipsis;-->
+<!--  overflow: hidden; -->
+<!--  -webkit-line-clamp: 2;-->
+<!--  display: -webkit-box;-->
+<!--  -webkit-box-orient: vertical;">aaaaaaaaaaaaaa</div>-->
+    <!--informações do item-->
+<!--    <div style="vertical-align: top;">R$ 45784891,23485783456</div>-->
+<!--    <button style="vertical-align: bottom">Hi</button>-->
+
+<!--  </div>-->
+
+<!--  <div style="text-align: center";>-->
+<!--    <img height="150px" src="./imagens/6ee1250a1e.webp" alt="">-->
+<!--    <div style="text-overflow: ellipsis;-->
+<!--  overflow: hidden; -->
+<!--  -webkit-line-clamp: 2;-->
+<!--  display: -webkit-box;-->
+<!--  -webkit-box-orient: vertical;">Cubo Mágico 3x3 GAN</div>-->
+<!--    R$ 650,00-->
+<!--    <button onclick="addToCart({-->
+<!--  id: 1,-->
+<!--  name: 'Cubo Mágico 3x3 GAN',-->
+<!--  category: '3x3',-->
+<!--  price: 650.00,-->
+<!--  image: './imagens/6ee1250a1e.webp',-->
+<!--  quantity: 1-->
+<!--})">-->
+<!--  Comprar-->
+<!--</button>-->
+<!--  </div>-->
+<!--
+  <div>
+    <img height="150px" src="./imagens/89dbad55b2e73438445d477d22d975b7-urktog4g7f.webp" alt="">
+    <button onclick="addToCart({
+  id: 2,
+  name: 'Cubo Mágico Megaminx GAN',
+  category: 'Megaminx',
+  price: 650.00,
+  image: './imagens/89dbad55b2e73438445d477d22d975b7-urktog4g7f.webp',
+  quantity: 1
+})">
+  Comprar
+</button>
+  </div>
+
+  <div>
+    <img height="150px" src="./imagens/MoYuWeiLongPyraminx.webp" alt="">
+    <button onclick="addToCart({
+  id: 3,
+  name: 'Cubo Mágico Pyraminx Moyu',
+  category: 'Pyraminx',
+  price: 650.00,
+  image: './imagens/MoYuWeiLongPyraminx.webp',
+  quantity: 1
+})">
+  Comprar
+</button>
+  </div>
+
+  <div>
+    <img height="150px" src="./imagens/GANSkewbStickerlesscopy_ebb1eeb0-d598-4431-b012-70535a397cd3.webp" alt="">
+    <button onclick="addToCart({
+  id: 4,
+  name: 'Cubo Mágico Skewb GAN',
+  category: 'Skewb',
+  price: 650.00,
+  image: './imagens/GANSkewbStickerlesscopy_ebb1eeb0-d598-4431-b012-70535a397cd3.webp',
+  quantity: 1
+})">
+  Comprar
+</button>
+  </div>
+
+  <div>
+    <img height="150px" src="./imagens/yj-mgc-square-1-magnetic-stickerless.webp" alt="">
+    <button onclick="addToCart({
+  id: 5,
+  name: 'Cubo Mágico Square-1 MGC',
+  category: 'Square-1',
+  price: 650.00,
+  image: './imagens/yj-mgc-square-1-magnetic-stickerless.webp',
+  quantity: 1
+})">
+  Comprar
+</button>
+  </div>
+
+<!--grid test-->
+  <!--<div class="item item-rounded">
+<!--imagem do cubo-->
+<!--<div>-->
+<!--    <img src="./imagens/6ee1250a1e.webp" alt="Cubo Mágico 3x3 GAN">-->
+<!--  </div>-->
+
+  <!--informações-->
+<!--  <div>-->
+    <!--formatação para um link(?)-->
+<!--    <a href="#">-->
+      <!--nome do cubo-->
+<!--      <div></div>-->
+      <!--preço-->
+<!--      <div></div>-->
+<!--    </a>-->
+<!--  </div>-->
+  <!--botão de compra e talvez outras coisas-->
+<!--  <div class="item-actions">-->
+<!--    <div>-->
+<!--      <a>Comprar</a>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--      <a>-->
+<!--        <svg><use></use></svg>-->
+<!--        <span>Espiar</span></a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  <script></script>-->
+<!---</div>--->
+
+    <script src="cart.js"></script>
+</body>
+</html>
